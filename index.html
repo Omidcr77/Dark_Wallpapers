@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+  <link href="./output.css" rel="stylesheet">
+  <style>
+    .dark-mode {
+      background-color: #1a202c;
+      color: #f7fafc;
+    }
+
+    .dark-mode .card {
+      background-color: #2d3748;
+      color: #f7fafc;
+    }
+    #darkModeToggle {
+      color: rgb(243, 255, 254);
+      position: absolute;
+      background-color: black; 
+      border-radius: 9px;
+      font-size: small;
+      margin-top: 10px;
+      margin-right: 10px;
+      display: flex;
+      justify-content: flex-start;
+    }
+    .dark-mode #darkModeToggle {
+      color:#000000;
+      background-color: white;
+    }
+    .dark-mode #darkModeToggle:hover {
+      color:#5ae31b;
+      background-color: rgb(25, 14, 226);
+    }
+    #darkModeToggle:hover{
+      color: darkslategrey;
+      background-color: black; 
+    }
+    .dark3 {
+      margin: 20px;
+      border: 2px solid #000000;
+      padding: 0.5rem 1rem;
+      display: inline-block;
+      text-decoration: none;
+      color: #000000;
+      border-radius: 10px;
+
+      
+    }
+    .dark-mode .dark3 {
+      color: white;
+    }
+  </style>
+  <title>Dark Wallpapers</title>
+</head>
+<body class="text-gray-600 font-nunito dark:bg-gray-800 dark:text-white">
+  <div class="flex justify-end mt-4 mr-4">
+    <button id="darkModeToggle"> dark_mode</button>
+  </div>
+
+  <div class="grid md:grid-cols-3">
+    <div class="md:col-span-1 dark:bg-gray-800">
+      <nav class="text-right">
+        <div class="flex md:justify-end justify-between items-center">
+          <h1 class="m-5 my-5">
+            <a href="/" class="font-bold text-xl md:justify-end">Dark Wallpapers</a>
+          </h1>
+          <div class="px-4 cursor-pointer md:hidden" id="burg">
+            <h4>Open</h4>
+          </div>
+        </div>
+        <ul class="hidden md:block" id="menu">
+          <li>
+            <a href="#" class="flex justify-end border-r-4 border-rose-600 px-3">
+              <span class="text-gray-700 font-bold">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex justify-end px-4">
+              <span>About</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex justify-end px-4">
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main class="p-14 py-6 bg-gray-500 dark:bg-gray-800 md:col-span-2">
+      <div class="flex justify-center md:justify-end text-rose-500 dark:text-white">
+        <a href="#" class="dark3">LogIn</a>
+        <a href="#" class="dark3">SignUp</a>
+      </div>
+      <header>
+        <h2 class="text-6xl font-semibold my-3 uppercase dark:text-white">Dark Wallpapers</h2>
+        <h3 class="text-2xl dark:text-white">For CS Students</h3>
+      </header>
+      <div>
+        <h4 class="font-bold my-10 border-b-2 border-b-gray-200 dark:text-white">Latest Wallpapers</h4>
+        <div class="grid lg:grid-cols-3 gap-10">
+          <div class="card dark:bg-gray-700">
+            <img src="./img/img1.jpg" width="250px" class="img">
+            <div class="p-8">
+              <span class="text-xl font-bold dark:text-white">Kali LInux 1</span>
+              <br>
+              <span class="dark:text-white">Kali Linux Wallpaper looks dangerous</span>
+            </div>
+            <div class="badge">
+              <span class="dark:text-white">25 mins</span>
+            </div>
+          </div>
+          <div class="card dark:bg-gray-700">
+            <img src="./img/img2.jpg" width="250px" class="img">
+            <div class="p-8">
+              <span class="text-xl font-bold dark:text-white">Kali LInux 1</span>
+              <br>
+              <span class="dark:text-white">Kali Linux Wallpaper looks dangerous</span>
+            </div>
+            <div class="badge">
+              <span class="dark:text-white">25 mins</span>
+            </div>
+          </div>
+          <div class="card dark:bg-gray-700">
+            <img src="./img/img3.jpg" width="250px" class="img">
+            <div class="p-8">
+              <span class="text-xl font-bold dark:text-white">Anonymouse Wallpaper 3</span>
+              <br>
+              <span class="dark:text-white">Be aware of everything that's been going around!</span>
+            </div>
+            <div class="badge">
+              <span class="dark:text-white">25 mins</span>
+            </div>
+          </div>
+          <div class="card dark:bg-gray-700">
+            <img src="./img/img4.jpg" width="250px" class="img">
+            <div class="p-8">
+              <span class="text-xl font-bold dark:text-white">Anonymouse Wallpaper 4</span>
+              <br>
+              <span class="dark:text-white">Be aware of everything that's been going around!</span>
+            </div>
+            <div class="badge">
+              <span class="dark:text-white">25 mins</span>
+            </div>
+          </div>
+          <div class="card dark:bg-gray-700">
+            <img src="./img/img5.jpg" width="250px" class="img">
+            <div class="p-8">
+              <span class="text-xl font-bold dark:text-white">Anonymouse Wallpaper 4</span>
+              <br>
+              <span class="dark:text-white">Be aware of everything that's been going around!</span>
+            </div>
+            <div class="badge">
+              <span class="dark:text-white">25 mins</span>
+            </div>
+          </div>
+          <div class="card dark:bg-gray-700">
+            <img src="./img/img6.jpg" width="250px" class="img">
+            <div class="p-8">
+              <span class="text-xl font-bold dark:text-white">Darkest Wallpaper 6</span>
+              <br>
+              <span class="dark:text-white">There is something hidden inside!</span>
+            </div>
+            <div class="badge">
+              <span class="dark:text-white">25 mins</span>
+            </div>
+          </div>
+          <!-- Add more card elements here -->
+        </div>
+      </div>
+      <h4 class="font-bold my-8 border-b-2 border-b-gray-200 dark:text-white">Most Popular</h4>
+      <div>
+        <!-- Card code... -->
+      </div>
+      <div class="flex justify-center">
+        <div class=" text-black dark:text-black btn bg-secondary-100 border-secondary-200 border-2 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300">Load More</div>
+      </div>
+    </main>
+  </div>
+  <script>
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const body = document.body;
+
+    darkModeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>

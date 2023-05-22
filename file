@@ -1,0 +1,66 @@
+<div class="card">
+    <img src="./img/img1.jpg" width="250px" class="img">
+    <div class="p-8">
+      <span class="text-xl font-bold">Kali LInux 1</span>
+      <br>
+      <span>Kali Linux Wallpaper looks dangerous</span>
+    </div>
+    <div class="badge">
+      <span>25 mins</span>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./img/img2.jpg" width="250px" class="img">
+    <div class="p-8">
+      <span class="text-xl font-bold">Kali LInux 1</span>
+      <br>
+      <span>Kali Linux Wallpaper looks dangerous</span>
+    </div>
+    <div class="badge">
+      <span>25 mins</span>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./img/img3.jpg" width="250px" class="img">
+    <div class="p-8">
+      <span class="text-xl font-bold">Anonymouse Wallpaper 3</span>
+      <br>
+      <span>Be aware of everything that's been going around!</span>
+    </div>
+    <div class="badge">
+      <span>25 mins</span>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./img/img4.jpg" width="250px" class="img">
+    <div class="p-8">
+      <span class="text-xl font-bold">Anonymouse Wallpaper 4</span>
+      <br>
+      <span>Be aware of everything that's been going around!</span>
+    </div>
+    <div class="badge">
+      <span>25 mins</span>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./img/img5.jpg" width="250px" class="img">
+    <div class="p-8">
+      <span class="text-xl font-bold">Anonymouse Wallpaper 4</span>
+      <br>
+      <span>Be aware of everything that's been going around!</span>
+    </div>
+    <div class="badge">
+      <span>25 mins</span>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./img/img6.jpg" width="250px" class="img">
+    <div class="p-8">
+      <span class="text-xl font-bold">Darkest Wallpaper 6</span>
+      <br>
+      <span>There is something hidden inside!</span>
+    </div>
+    <div class="badge">
+      <span>25 mins</span>
+    </div>
+  </div>
